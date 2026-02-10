@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./index.js" type="module" defer></script>
+    <title>Sólidos Geométricos</title>
+</head>
+<body>
+    <header>
+        <h1>Sistema de Cálculo de Sólidos Geométricos</h1>
+        <hr>
+    </header>
+    <main>
+        <h2>Selecione o tipo de Figura Geométrica</h2>
+        <label for="tipo">Opções</label>
+        <select id="tipo">
+            <option value="cone">Cone</option>
+            <option value="cilindro">Cilindro</option>
+        </select>
+        <br><br>
+        <label for="raio">Digite o valor do Raio:</label><br>
+        <input type="number" id="raio" placeholder="raio em metros"><br><br>
+        <label for="altura">Digite o valor do Altura:</label><br>
+        <input type="number" id="altura" placeholder="altura em metros"><br><br>
+        <button id="prog_principal">Calcular</button><br><br>
+        <hr>
+        <div id="resposta"></div>
+        <hr>
+    </main>
+</body>
+</html>
